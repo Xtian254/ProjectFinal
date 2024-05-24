@@ -684,37 +684,70 @@ ul li a {
 }
 
 /* Media Queries for Responsive Design */
+/* Small devices (phones, 576px and up) */
+@media (max-width: 576px) {
+  header {
+      padding: 1rem;
+  }
+
+  .top-nav ul {
+      flex-direction: column;
+  }
+
+  .top-nav ul li {
+      margin-bottom: 0.5rem;
+  }
+
+  main {
+      padding: 1rem;
+  }
+
+  .container {
+      padding: 1rem;
+  }
+
+  .modal {
+      width: 90%;
+      height: 90%;
+      padding-top: 30px;
+  }
+
+  .carousel {
+      padding: 0 20px;
+  }
+}
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-    header {
-        padding: 1.5rem 2rem;
-    }
+  header {
+      padding: 1.5rem 2rem;
+  }
 
-    nav ul {
-        gap: 2rem;
-    }
+  .top-nav ul {
+      gap: 2rem;
+  }
 
-    main {
-        padding: 2rem;
-    }
+  main {
+      padding: 2rem;
+  }
 }
 
 /* Large devices (desktops, 1200px and up) */
 @media (min-width: 1200px) {
-    header {
-        padding: 2rem 3rem;
-    }
+  header {
+      padding: 2rem 3rem;
+  }
 
-    nav ul {
-        gap: 3rem;
-    }
+  .top-nav ul {
+      gap: 3rem;
+  }
 
-    main {
-        padding: 3rem;
-    }
+  main {
+      padding: 3rem;
+  }
 
-    section {
-        margin-bottom: 3rem;
-    }
+  section {
+      margin-bottom: 3rem;
+  }
 }
+
